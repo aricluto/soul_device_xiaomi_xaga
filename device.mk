@@ -255,6 +255,7 @@ PRODUCT_PACKAGES += \
     FrameworksResOverlay \
     NotchBarKiller \
     SettingsOverlay \
+    SettingsLibOverlay \
     SystemUIOverlay \
     TetheringConfigOverlay \
     WifiOverlay \
