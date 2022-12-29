@@ -39,9 +39,6 @@ dalvik.vm.dex2oat64.enabled=true
 # Disable MTE Async for system server
 arm64.memtag.process.system_server=off
 
-# FUSE passthrough
-persist.sys.fuse.passthrough.enable=true
-
 # Feature flags
 persist.sys.fflag.override.settings_enable_monitor_phantom_procs=false
 
