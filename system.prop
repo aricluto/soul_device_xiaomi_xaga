@@ -94,3 +94,5 @@ vendor.rild.libpath=mtk-ril.so
 
 # Render
 debug.cpurend.vsync=false
+debug.renderengine.backend=skiaglthreaded
+debug.hwui.renderer=skiagl
