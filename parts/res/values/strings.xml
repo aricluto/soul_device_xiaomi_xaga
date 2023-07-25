@@ -8,8 +8,4 @@
     <!-- Ambient settings -->
     <string name="ambient_enable">Use ambient display</string>
 
-    <!-- Dolby -->
-    <string name="dolby_title">Dolby Atmos</string>
-    <string name="dolby_summary">Setting Dolby Atmos</string>
-
 </resources>

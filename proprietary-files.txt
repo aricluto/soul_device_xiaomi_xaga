@@ -1072,8 +1072,6 @@ vendor/etc/miLut_8.txt
 vendor/etc/miLut_9.txt
 
 # Dolby
--system_ext/priv-app/daxService/daxService.apk|56ed0f574ef7d760e5404d8acd309a3c48eb28a5
--system_ext/priv-app/DaxUI/DaxUI.apk|21426b8bf9a1850e52c96ad52c47c7797144d969
 lib/vendor.dolby.hardware.dms@2.0.so
 lib64/vendor.dolby.hardware.dms@2.0.so
 vendor/bin/hw/vendor.dolby.hardware.dms@2.0-service
