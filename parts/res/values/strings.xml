@@ -12,16 +12,4 @@
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">Setting Dolby Atmos</string>
 
-    <!-- GPU -->
-    <string name="gpu_title">GPU Optimizer</string>
-    <string name="gpu_summary">Adjust GPU governor or limit GPU maximum frequency</string>
-
-    <string name="gpu_governor">GPU Governor</string>
-    <string name="gpu_governor_default">Default</string>
-    <string name="gpu_governor_ondemand">Ondemand</string>
-    <string name="gpu_governor_performance">Performance</string>
-    <string name="gpu_governor_powersave">Powersave</string>
-
-    <string name="gpu_max_frequency">GPU Maximum Frequency</string>
-
 </resources>
