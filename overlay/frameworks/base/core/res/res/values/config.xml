@@ -29,7 +29,7 @@
     <bool name="config_supportDoubleTapWake">true</bool>
 
     <!-- Enable Zram writeback feature to allow unused pages in zram be written to flash. -->
-    <bool name="config_zramWriteback">true</bool>  
+    <bool name="config_zramWriteback">false</bool>  
     
     <!-- SQLite -->
     <string name="db_default_journal_mode">MEMORY</string>
