@@ -24,13 +24,6 @@ dalvik.vm.dex2oat64.enabled=true
 # Disable MTE Async for system server
 arm64.memtag.process.system_server=off
 
-# Disable Skia tracing by default
-debug.hwui.skia_atrace_enabled=false
-
-# Display
-debug.sf.predict_hwc_composition_strategy=0
-debug.sf.enable_transaction_tracing=false
-
 # FUSE passthrough
 persist.sys.fuse.passthrough.enable=true
 
@@ -113,8 +106,6 @@ ro.config.sdha_apps_bg_min=8
 
 # Render
 debug.cpurend.vsync=false
-debug.renderengine.backend=skiaglthreaded
-debug.hwui.renderer=opengl
 
 # RIL Powersaving
 persist.radio.add_power_save=1
@@ -125,3 +116,6 @@ ro.ril.fast.dormancy.timeout=3
 ro.mot.eri.losalert.delay=100
 ro.vold.umsdirtyratio=20
 power.saving.mode=1
+
+# Zygote
+ro.zygote.preload.enable=0
