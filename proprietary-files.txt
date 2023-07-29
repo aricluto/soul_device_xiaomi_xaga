@@ -2716,6 +2716,20 @@ vendor/etc/sensors/hals.conf
 # Soter (Tencent)
 vendor/app/SoterService/SoterService.apk
 
+# Sound Trigger
+vendor/etc/mixer_paths.xml
+vendor/etc/mixer_paths_cdp.xml
+vendor/etc/sound_trigger_mixer_paths.xml
+vendor/etc/sound_trigger_mixer_paths_cdp.xml
+vendor/etc/sound_trigger_mixer_paths_qrd.xml
+vendor/etc/sound_trigger_platform_info.xml
+vendor/lib/libcapiv2svacnn.so
+vendor/lib/libcapiv2svarnn.so
+vendor/lib/libcapiv2vop.so
+vendor/lib64/libcapiv2svacnn.so
+vendor/lib64/libcapiv2svarnn.so
+vendor/lib64/libcapiv2vop.so
+
 # TEE
 vendor/thh/ta/0102030405060708090a0b0c0d0e0f10.ta
 vendor/thh/ta/020f0000000000000000000000000000.ta
