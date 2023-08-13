@@ -76,6 +76,10 @@ function blob_fixup() {
         vendor/lib/mt6895/libmtkcam_stdutils.so | vendor/lib64/mt6895/libmtkcam_stdutils.so)
             "$PATCHELF" --replace-needed libutils.so libutils-v32.so "$2"
             ;;
+        vendor/lib64/libgf_hal.so)
+            xxd -p "${2}" | sed "s/ffc301d1fd7b06a9fd830191e8031f2ae2037db2a94300d14ad03bd54a15/000080d2c0035fd6fd830191e8031f2ae2037db2a94300d14ad03bd54a15/g" | xxd -r -p > "${2}".patched
+            mv "${2}".patched "${2}"
+            ;;
     esac
 }
 
