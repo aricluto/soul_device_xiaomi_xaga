@@ -107,7 +107,7 @@
     <CMD name="PERF_RES_SCHED_UCLAMP_MIN_TA" id="0x01408300">
         <Entry path="/dev/cpuctl/top-app/cpu.uclamp.min"></Entry>
         <Compare>more</Compare>
-        <MaxValue>100</MaxValue>
+        <MaxValue>50</MaxValue>
         <MinValue>0</MinValue>
         <DefaultValue>0</DefaultValue>
     </CMD>
