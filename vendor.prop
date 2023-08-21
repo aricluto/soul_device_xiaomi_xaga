@@ -158,6 +158,9 @@ vendor.display.idle_time_inactive=0
 # FRP
 ro.frp.pst=/dev/block/by-name/frp
 
+# FS-verity
+ro.apk_verity.mode=2
+
 # Haptics
 sys.haptic.down.normal=2
 sys.haptic.down.strong=5
