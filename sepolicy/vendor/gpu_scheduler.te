@@ -1,0 +1,39 @@
+type gpu_scheduler, domain;
+type gpu_scheduler_exec, file_type, exec_type, vendor_file_type;
+type vendor_dumpsys_file, file_type, exec_type, vendor_file_type;
+type system_dumpsys_file, file_type, exec_type;
+type system_service_file, file_type, exec_type;
+
+init_daemon_domain(gpu_scheduler)
+
+allow gpu_scheduler gpu_scheduler_exec:file { execute_no_trans execute };
+
+allow gpu_scheduler proc_gpufreqv2:dir search;
+allow gpu_scheduler proc_gpufreqv2:file { read open write getattr setattr };
+
+allow gpu_scheduler surfaceflinger:fifo_file write;
+allow gpu_scheduler surfaceflinger:fd use;
+allow gpu_scheduler surfaceflinger_service:service_manager find;
+
+binder_call(gpu_scheduler, surfaceflinger)
+
+allow gpu_scheduler sysfs_fpsgo:dir search;
+allow gpu_scheduler sysfs_fpsgo:file { read open getattr };
+
+binder_call(gpu_scheduler, servicemanager)
+
+allow gpu_scheduler system_dumpsys_file:file { read open execute_no_trans execute map getattr };
+allow gpu_scheduler system_service_file:file { read open execute_no_trans execute map getattr };
+allow gpu_scheduler vendor_dumpsys_file:file { read open execute_no_trans execute map getattr };
+
+allow gpu_scheduler self:capability { chown fowner fsetid setuid setgid };
+dontaudit gpu_scheduler self:capability dac_override;
+
+allow gpu_scheduler vndbinder_device:chr_file r_file_perms;
+
+allow surfaceflinger gpu_scheduler:fd use;
+allow surfaceflinger gpu_scheduler:fifo_file write;
+
+allow vendor_init proc_gpufreqv2:file write;
+allow init system_dumpsys_file:file r_file_perms;
+allow init system_service_file:file r_file_perms;
