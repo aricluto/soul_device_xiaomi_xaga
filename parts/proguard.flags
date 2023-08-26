@@ -1,15 +1,8 @@
--keep class org.lineageos.settings.popupcamera.* {
-  *;
-}
 -keep class org.lineageos.settings.* {
   *;
 }
 
 -keep class org.lineageos.settings.dirac.* {
-  *;
-}
-
--keep class org.lineageos.settings.doze.* {
   *;
 }
 
@@ -23,8 +16,3 @@
 -keep class org.lineageos.settings.dirac.* {
   *;
 }
-
--keep class org.lineageos.settings.thermal.* {
-  *;
-}
-
