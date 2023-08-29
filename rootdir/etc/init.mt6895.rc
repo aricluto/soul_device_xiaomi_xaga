@@ -1036,6 +1036,22 @@ on property:sys.boot_completed=1
     write /proc/sys/kernel/nmi_watchdog 0
     write /proc/sys/kernel/hung_task_timeout_secs 0
     
+    # Set buffer size for touch input
+    write /sys/class/input/event0/buffer_size 16
+    write /sys/class/input/event7/buffer_size 16
+    
+    # Set touch sampling rate
+    write /sys/module/msm_ts/parameters/debug_mask 1
+    write /sys/module/msm_ts/parameters/input_poll_boost 0
+    write /sys/module/msm_ts/parameters/timer_rate 0
+    write /sys/module/msm_ts/parameters/delta 5
+    write /sys/module/msm_ts/parameters/vtg_level 120
+    write /sys/class/input/event0/sampling_rate 5
+    write /sys/class/input/event7/sampling_rate 5
+    
+    # Disable automatic sleep and wakeup for touch input
+    write /sys/module/msm_ts/parameters/touch_boost 0
+    
     # GPU FAS Scheduler
     service gpu_scheduler /vendor/bin/gpu-fas
     class main
