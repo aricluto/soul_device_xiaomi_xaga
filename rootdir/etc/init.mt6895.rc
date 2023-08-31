@@ -1048,6 +1048,11 @@ on property:sys.boot_completed=1
     write /sys/module/msm_ts/parameters/vtg_level 120
     write /sys/class/input/event0/sampling_rate 5
     write /sys/class/input/event7/sampling_rate 5
+
+    # TCP settings
+    write /proc/sys/net/ipv4/tcp_ecn 1
+    write /proc/sys/net/ipv4/tcp_fastopen 3
+    write /proc/sys/net/ipv4/tcp_syncookies 0
     
     # Disable automatic sleep and wakeup for touch input
     write /sys/module/msm_ts/parameters/touch_boost 0
