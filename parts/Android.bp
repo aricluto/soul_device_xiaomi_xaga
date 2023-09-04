@@ -25,3 +25,10 @@ android_app {
         proguard_flags_files: ["proguard.flags"],
     },
 }
+
+prebuilt_etc {
+    name: "gpu_activator.rc",
+    src: "gpu_activator.rc",
+    sub_dir: "init",
+    vendor: true,
+}

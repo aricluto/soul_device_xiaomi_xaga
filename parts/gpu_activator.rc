@@ -1,0 +1,8 @@
+on property:persist.sys.parts.gpu.scheduler=true
+    start gpu_scheduler
+    start ondemand_mtk_killer
+
+on property:persist.sys.parts.gpu.scheduler=false
+    stop gpu_scheduler
+    stop ondemand_mtk_killer
+    start ondemand_mtk
