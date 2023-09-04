@@ -202,6 +202,7 @@ PRODUCT_COPY_FILES += \
     
 # IMS
 PRODUCT_BOOT_JARS += \
+    mediatek-carrier-config-manager \
     mediatek-common \
     mediatek-framework \
     mediatek-ims-base \
