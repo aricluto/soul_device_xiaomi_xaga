@@ -1533,17 +1533,20 @@ vendor/lib64/libstagefrighthw.so
 #system_ext/lib64/vendor.mediatek.hardware.camera.atms@1.0.so
 
 # MTK-IMS
+-framework/mediatek-carrier-config-manager.jar
 -framework/mediatek-common.jar
 -framework/mediatek-framework.jar
+framework/mediatek-gwsdv2.jar
 -framework/mediatek-ims-base.jar
 -framework/mediatek-ims-common.jar
+framework/mediatek-ims-extension-plugin.jar
 -framework/mediatek-telecom-common.jar
 -framework/mediatek-telephony-base.jar
 -framework/mediatek-telephony-common.jar
+framework/mediatek-wfo-legacy.jar
 -priv-app/ImsService/ImsService.apk
 bin/vtservice
 etc/init/init.vtservice.rc
-framework/mediatek-ims-extension-plugin.jar
 lib/libmtk_vt_wrapper.so
 lib/libmtkperf_client.so
 lib/libsysenv_system.so
