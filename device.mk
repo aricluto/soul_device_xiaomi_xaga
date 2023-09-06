@@ -169,7 +169,15 @@ PRODUCT_PACKAGES += \
 # GPU FAS Scheduler
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/prebuilts/gpu-fas:$(TARGET_COPY_OUT_VENDOR)/bin/gpu-fas
-    
+  
+# GPU Ondemand Governor
+PRODUCT_PACKAGES += \
+    ondemand_gpu.sh \
+    ondemand_killer.sh
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/prebuilts/ondemand_mtk:$(TARGET_COPY_OUT_VENDOR)/bin/ondemand_mtk
+      
 # Health
 PRODUCT_PACKAGES += \
     android.hardware.health@2.1-impl \

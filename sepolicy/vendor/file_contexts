@@ -93,6 +93,12 @@
 /system/bin/dumpsys                u:object_r:system_dumpsys_file:s0
 /system/bin/service                u:object_r:system_service_file:s0
 
+# GPU Ondemand Governor
+/vendor/bin/ondemand_mtk                u:object_r:gpu_governor_exec:s0
+/vendor/bin/ondemand_gpu.sh             u:object_r:gpu_governor_exec:s0
+/vendor/bin/ondemand_killer.sh             u:object_r:gpu_governor_exec:s0
+/data/gpu_freq_table.conf               u:object_r:gpu_governor_data_file:s0
+
 # Graphics
 /sys/devices/virtual/mi_display/disp_feature/disp-DSI-+[0-1](/.*)?        u:object_r:vendor_sysfs_displayfeature:s0
 

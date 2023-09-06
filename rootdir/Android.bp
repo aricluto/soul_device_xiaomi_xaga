@@ -26,7 +26,19 @@ sh_binary {
 sh_binary {
     name: "set_permissive.sh",
     src: "bin/set_permissive.sh",
-    vendor: true
+    vendor: true,
+}
+
+sh_binary {
+    name: "ondemand_gpu.sh",
+    src: "bin/ondemand_gpu.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "ondemand_killer.sh",
+    src: "bin/ondemand_killer.sh",
+    vendor: true,
 }
 
 // Init configuration files
