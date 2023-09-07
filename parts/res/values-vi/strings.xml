@@ -15,6 +15,16 @@
      limitations under the License.
 -->
 <resources>
+    <!-- Thermal Profiles -->
+    <string name="thermal_title">Cấu hình Nhiệt</string>
+    <string name="thermal_summary">Điều chỉnh cấu hình nhiệt độ riêng cho từng ứng dụng để đạt hiệu suất tối ưu</string>
+    <string name="thermal_default">Mặc định</string>
+    <string name="thermal_benchmark">Kiểm tra hiệu năng</string>
+    <string name="thermal_browser">Trình duyệt</string>
+    <string name="thermal_camera">Máy ảnh</string>
+    <string name="thermal_dialer">Ứng dụng điện thoại</string>
+    <string name="thermal_gaming">Chơi game</string>
+    <string name="thermal_streaming">Xem phim trực tuyến</string>
 
     <!-- Refresh Rate Settings -->
     <string name="refresh_rate_tile_title">Tốc độ làm mới</string>
@@ -33,5 +43,4 @@
     <string name="clear_speaker_title">Làm sạch loa</string>
     <string name="clear_speaker_summary">Phát một đoạn âm thanh dài 30 giây để làm sạch loa</string>
     <string name="clear_speaker_description">Chạy tính năng này một hoặc hai lần nếu bạn thấy loa của mình bị bụi bám nhẹ. Đặt âm lượng phương tiện ở mức tối đa.\n\nNếu loa bị chặn nhiều, hãy chạy tính năng này 2-5 lần trong khi lắc thiết bị của bạn với loa hướng xuống dưới.\n\nChú ý: Chắc chắn rằng không có tai nghe nào được kết nối.</string>
-
 </resources>
