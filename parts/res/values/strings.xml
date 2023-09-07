@@ -113,4 +113,11 @@
     <string name="gpu_title_enable">Enable GPU Frame-Aware Scheduler</string>
     <string name="gpu_summary">Control how your device uses the GPU</string>
     <string name="gpu_description">Frame-Aware Scheduler (FAS): Adjusts GPU based on the activity, while still maintaining a good balance of performance and battery life.\n\nDisabled: Disables any type of GPU fix, which can save battery life but also prevent you from using apps that require big graphics rendering.\n\n\nNOTE: Unfortunately all types of fixes have the same issue, which is auto reboots that are being caused by low temperatures, because of that I added this to control GPU yourself.</string>
+    
+    <!-- Dolby Atmos -->
+    <string name="dolby_title">Dolby Atmos</string>
+    <string name="dolby_enable">Enable</string>
+    <string name="dolby_summary">Surround sound</string>
+    <string name="dolby_profile_title">Choose a profile</string>
+    <string name="dolby_profile_dynamic">Dynamic</string>
 </resources>

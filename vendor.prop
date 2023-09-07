@@ -318,7 +318,7 @@ telephony.active_modems.max_count=2
 telephony.lteOnCdmaDevice=1
 
 # Sound Trigger
-persist.vendor.audio.misound.disable=false
+persist.vendor.audio.misound.disable=true
 ro.vendor.audio.bass.enhancer.enable=true
 ro.vendor.audio.dump.mixer=true
 ro.vendor.audio.feature.spatial=7
