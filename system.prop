@@ -137,5 +137,34 @@ ro.ril.fast.dormancy.rule=1
 ro.ril.fast.dormancy.timeout=3
 ro.vold.umsdirtyratio=20
 
+# XtremeSensivity
+touch.size.scale=1
+touch.size.bias=0
+touch.distance.scale=1
+touch.pressure.scale=1
+touch.deviceType=pointer
+touch.gestureMode=extended
+PointerVelocityControlParameters=1
+SwipeTransitionAngleCosine=3.6
+DragMinSwitchSpeed=2527200
+mot.proximity.distance=1
+SwipeMaxWidthRatio=1
+MovementSpeedRatio=1
+ZoomSpeedRatio=1
+lowThreshold=0
+highThreshold=0
+acceleration=2527200
+QuietInterval=0
+TapInterval=0
+TapDragInterval=0
+TapSlop=2527200
+KeyRepeatDelay=0
+KeyRepeatTimeout=0
+VirtualKeyQuietTime=0
+MultitouchMinDistance=0
+MultitouchSettleInterval=0
+PointerGesture=true
+debug.sf.enable_gl_backpression=1
+
 # Zygote
 ro.zygote.preload.enable=0
