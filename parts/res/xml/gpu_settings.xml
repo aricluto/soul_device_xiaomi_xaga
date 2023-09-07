@@ -22,7 +22,7 @@
         android:defaultValue="true"
         android:key="gpu_scheduler_perf"
         android:title="@string/gpu_title_enable"
-        android:summary="%s" />
+        android:summary="@string/gpu_summary" />
 
     <com.android.settingslib.widget.FooterPreference
         android:key="footer_preference"
