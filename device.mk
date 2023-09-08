@@ -278,6 +278,10 @@ PRODUCT_PACKAGES += \
     XagaProFrameworkResOverlay \
     XagaProInFrameworkResOverlay \
     SettingsProviderOverlayXaga \
+    SettingsProviderOverlayChina \
+    SettingsProviderOverlayChinaPlus \
+    SettingsProviderOverlayGlobal \
+    SettingsProviderOverlayIndia \
 
 # Partitions
 PRODUCT_BUILD_SUPER_PARTITION := false
