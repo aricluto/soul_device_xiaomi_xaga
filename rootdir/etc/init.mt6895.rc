@@ -1019,22 +1019,6 @@ on property:sys.boot_completed=1
 
     # stop bootprof
     write /proc/bootprof 0
-
-    # governor
-    write /sys/devices/system/cpu/cpufreq/policy0/scaling_governor "schedutil"
-    write /sys/devices/system/cpu/cpufreq/policy4/scaling_governor "schedutil"
-    write /sys/devices/system/cpu/cpufreq/policy7/scaling_governor "schedutil"    
-
-    # Disable kernel panic
-    write /proc/sys/kernel/panic 0
-    write /proc/sys/kernel/panic_on_oops 0
-    write /proc/sys/kernel/panic_on_warn 0
-    write /sys/module/kernel/parameters/panic 0
-    write /sys/module/kernel/parameters/panic_on_warn 0
-    write /sys/module/kernel/parameters/pause_on_oops 0
-    write /proc/sys/kernel/softlockup_panic 0
-    write /proc/sys/kernel/nmi_watchdog 0
-    write /proc/sys/kernel/hung_task_timeout_secs 0
     
     # Set buffer size for touch input
     write /sys/class/input/event0/buffer_size 16
