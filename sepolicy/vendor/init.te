@@ -1,1 +1,3 @@
 allow init vendor_sysfs_backlight:lnk_file read;
+
+allow init hf_manager_device:chr_file rw_file_perms;
