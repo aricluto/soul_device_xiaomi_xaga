@@ -44,8 +44,3 @@ PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_CHARACTERISTICS := nosdcard
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
-
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="missi_phone_cn-user 13 TP1A.220624.014 V14.0.5.0.TLOCNXM release-keys"
-
-BUILD_FINGERPRINT := Xiaomi/missi_phone_cn/missi:13/TP1A.220624.014/V14.0.5.0.TLOCNXM:user/release-keys
