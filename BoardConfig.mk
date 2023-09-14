@@ -65,8 +65,8 @@ TARGET_USES_UEFI := true
 TARGET_ENABLE_MEDIADRM_64 := true
 
 # Init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_xaga
-TARGET_RECOVERY_DEVICE_MODULES := libinit_xaga
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_xiaomi_xaga
+TARGET_RECOVERY_DEVICE_MODULES := init_xiaomi_xaga
 
 # Jemalloc
 MALLOC_SVELTE := true
