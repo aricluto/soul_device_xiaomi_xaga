@@ -19,7 +19,7 @@
     android:title="@string/gpu_title">
 
     <SwitchPreference
-        android:defaultValue="true"
+        android:defaultValue="false"
         android:key="gpu_scheduler_perf"
         android:title="@string/gpu_title_enable"
         android:summary="@string/gpu_summary" />
