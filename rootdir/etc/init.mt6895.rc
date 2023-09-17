@@ -1039,7 +1039,6 @@ on property:sys.boot_completed=1
     disabled
 
 on init
-    start gpu_scheduler
     chmod 0644 /proc/gpufreqv2/fix_target_opp_index
     chmod 0644 /proc/gpufreqv2/fix_custom_freq_volt
     chown system system /proc/gpufreqv2/fix_target_opp_index
