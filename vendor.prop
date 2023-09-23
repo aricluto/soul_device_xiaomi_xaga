@@ -142,6 +142,7 @@ ro.vendor.all_modes.colorpick_adjust=true
 ro.vendor.colorpick_adjust=true
 ro.vendor.histogram.enable=false
 ro.vendor.whitepoint_calibration_enable=false
+service.sf.prime_shader_cache=0
 
 # Display - Dynamic refresh rate
 ro.surface_flinger.set_display_power_timer_ms=1000
