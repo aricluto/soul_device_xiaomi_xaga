@@ -1192,3 +1192,6 @@ service set_permissive_chg /vendor/bin/set_permissive.sh
     disabled
     oneshot
     
+# Default country code
+    setprop ro.boot.wificountrycode 00
+    
